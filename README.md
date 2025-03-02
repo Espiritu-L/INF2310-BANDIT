@@ -151,3 +151,19 @@ cat data.txt | grep millionth
 ```bash
 dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 ```
+
+## LEVEL 8->9
+### Solucion 
+```bash
+ssh bandit8@bandit.labs.overthewire.org -p 2220
+```
+```bash
+ls
+```
+```bash
+sort data.txt | uniq -u
+```
+ ### Password
+```bash
+4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+```
