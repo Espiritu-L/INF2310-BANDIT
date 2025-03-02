@@ -328,3 +328,19 @@ cat /etc/bandit_pass/bandit14
 ```bash
 MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
 ```
+
+## LEVEL 14->15
+### Solucion 
+```bash
+ssh bandit14@bandit.labs.overthewire.org -p 2220
+```
+```bash
+nc localhost 30000
+```
+```bash
+MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+```
+ ### Password
+```bash
+8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+```
