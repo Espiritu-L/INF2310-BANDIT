@@ -135,3 +135,19 @@ find / -user bandit7 -group bandit6 -size 33c 2>/dev/null | xargs cat
 ```bash
 morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 ```
+
+## LEVEL 7->8
+### Solucion 
+```bash
+ssh bandit7@bandit.labs.overthewire.org -p 2220
+```
+```bash
+ls
+```
+```bash
+cat data.txt | grep millionth
+```
+ ### Password
+```bash
+dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+```
