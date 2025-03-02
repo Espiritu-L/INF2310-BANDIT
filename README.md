@@ -119,3 +119,19 @@ cat ./maybehere07/.file2
 ```bash
 HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 ```
+
+## LEVEL 6->7
+### Solucion 
+```bash
+ssh bandit6@bandit.labs.overthewire.org -p 2220
+```
+```bash
+find / -user bandit7 -group bandit6 -size 33c | xargs cat
+```
+```bash
+find / -user bandit7 -group bandit6 -size 33c 2>/dev/null | xargs cat
+```
+ ### Password
+```bash
+morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+```
