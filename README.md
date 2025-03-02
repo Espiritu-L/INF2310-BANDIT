@@ -360,3 +360,30 @@ ncat --ssl localhost 30001
 ```bash
 kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
 ```
+
+## LEVEL 16->17
+### Solucion 
+```bash
+ssh bandit16@bandit.labs.overthewire.org -p 2220
+```
+```bash
+8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+```
+```bash
+man nmap
+```
+```bash
+nmap localhost -p 31000-32000
+```
+## Intentar con cada uno hasta obtener 
+-----BEGIN RSA PRIVATE KEY-----
+```bash
+ncat --ssl localhost 3????
+```
+```bash
+kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+```
+ ### Password
+```bash
+
+```
