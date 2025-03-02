@@ -202,3 +202,22 @@ cat data.txt | base64 -d
 ```bash
 dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
 ```
+
+## LEVEL 11->12
+### Solucion 
+```bash
+ssh bandit11@bandit.labs.overthewire.org -p 2220
+```
+```bash
+ls
+```
+```bash
+cat data.txt
+```
+```bash
+cat data.txt | tr '[A-Za-z]' '[N-ZA-Mn-za-m]'
+```
+ ### Password
+```bash
+7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+```
