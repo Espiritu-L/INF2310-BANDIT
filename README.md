@@ -10,7 +10,9 @@ Once logged in, go to the Level 1 page to find out how to beat Level 1.
 ### Solucion
 ```bash
 ssh bandit0@bandit.labs.overthewire.org -p 2220
-### pasword:
+```
+### Pasword
 ```bash
 bandit0
+```
 
