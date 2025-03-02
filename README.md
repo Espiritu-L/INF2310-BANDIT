@@ -344,3 +344,19 @@ MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
 ```bash
 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
 ```
+
+## LEVEL 15->16
+### Solucion 
+```bash
+ssh bandit15@bandit.labs.overthewire.org -p 2220
+```
+```bash
+ncat --ssl localhost 30001
+```
+```bash
+8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+```
+ ### Password
+```bash
+kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+```
