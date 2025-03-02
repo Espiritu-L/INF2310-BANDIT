@@ -94,3 +94,28 @@ cat ./-file07
 ```bash
 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 ```
+
+## LEVEL 5->6
+### Solucion 
+```bash
+ssh bandit5@bandit.labs.overthewire.org -p 2220
+```
+```bash
+ls
+```
+```bash
+cd inhere/
+```
+```bash
+ls
+```
+```bash
+find . -type f -readable -size 1033c ! -executable
+```
+```bash
+cat ./maybehere07/.file2
+```
+ ### Password
+```bash
+HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+```
