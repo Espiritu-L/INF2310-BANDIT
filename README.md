@@ -167,3 +167,22 @@ sort data.txt | uniq -u
 ```bash
 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
 ```
+
+## LEVEL 9->10
+### Solucion 
+```bash
+ssh bandit9@bandit.labs.overthewire.org -p 2220
+```
+```bash
+ls
+```
+```bash
+strings data.txt
+```
+```bash
+strings data.txt | grep ==
+```
+ ### Password
+```bash
+FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+```
