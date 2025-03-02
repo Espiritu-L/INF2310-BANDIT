@@ -69,3 +69,28 @@ cat ...Hiding-From-You
 ```bash
 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 ```
+
+## LEVEL 4->5
+### Solucion 
+```bash
+ssh bandit4@bandit.labs.overthewire.org -p 2220
+```
+```bash
+ls
+```
+```bash
+cd inhere
+```
+```bash
+ls
+```
+```bash
+find . | xargs file
+```
+```bash
+cat ./-file07
+```
+ ### Password
+```bash
+4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+```
