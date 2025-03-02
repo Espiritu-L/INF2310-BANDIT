@@ -221,3 +221,94 @@ cat data.txt | tr '[A-Za-z]' '[N-ZA-Mn-za-m]'
 ```bash
 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
 ```
+
+## LEVEL 12->13
+### Solucion 
+```bash
+ssh bandit12@bandit.labs.overthewire.org -p 2220
+```
+```bash
+ls
+```
+```bash
+cat data.txt
+```
+```bash
+man xxd
+```
+```bash
+mkdir /tmp/eddy
+```
+```bash
+cp data.txt /tmp/eddy
+```
+```bash
+cd /tmp/eddy
+```
+```bash
+man xxd
+```
+```bash
+xxd -r data.txt > info
+```
+```bash
+mv info info.gz
+```
+```bash
+gzip -d info.gz
+```
+```bash
+mv info info.bz2
+```
+```bash
+bzip2 -d info.bz2
+```
+```bash
+mv info info.gz
+```
+```bash
+gzip -d info.gz
+```
+```bash
+man tar
+```
+```bash
+mv info info.tar
+```
+```bash
+tar -xf info.tar
+```
+```bash
+mv data5.bin data5.bin.tar
+```
+```bash
+tar -xf data5.bin.tar
+```
+```bash
+rm info.tar data5.bin.tar data.txt
+```
+```bash
+mv data6.bin data6.bin.bz2
+```
+```bash
+mv data6.bin data6.bin.bz2
+```
+```bash
+mv data6.bin data6.bin.tar
+```
+```bash
+tar -xf data6.bin.tar 
+```
+```bash
+mv data8.bin data8.bin.gz
+```
+```bash
+gzip -d data8.bin.gz
+```
+```bash
+cat data8.bin
+```
+ ### Password
+```bash
+FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+```
