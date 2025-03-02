@@ -186,3 +186,19 @@ strings data.txt | grep ==
 ```bash
 FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
 ```
+
+## LEVEL 10->11
+### Solucion 
+```bash
+ssh bandit10@bandit.labs.overthewire.org -p 2220
+```
+```bash
+ls
+```
+```bash
+cat data.txt | base64 -d
+```
+ ### Password
+```bash
+dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+```
