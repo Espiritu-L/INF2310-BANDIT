@@ -6,14 +6,11 @@ The host to which you need to connect is `bandit.labs.overthewire.org`, on port 
 The username is `bandit0` and the password is `bandit0`.  
 Once logged in, go to the Level 1 page to find out how to beat Level 1.
 
-### Solucion
--  ```bash
+- ### Solucion 
+```bash
 ssh bandit0@bandit.labs.overthewire.org -p 2220
 ```
-- 
-### Pasword
+ ### Pasword
 ```bash
 bandit0
 ```
-
-
