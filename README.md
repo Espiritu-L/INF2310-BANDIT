@@ -312,3 +312,19 @@ cat data8.bin
 ```bash
 FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
 ```
+
+## LEVEL 13->14
+### Solucion 
+```bash
+ssh bandit13@bandit.labs.overthewire.org -p 2220
+```
+```bash
+ssh -i sshkey.private bandit14@localhost -p 2220
+```
+```bash
+cat /etc/bandit_pass/bandit14
+```
+ ### Password
+```bash
+MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+```
